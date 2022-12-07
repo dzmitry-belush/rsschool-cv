@@ -2,7 +2,7 @@
 
 ## Location
 
-Warsaw
+Warsaw, Poland
 
 - - -
 
@@ -50,13 +50,13 @@ For loop and medals (JavaScript)
 
 ## Courses and Education
 
-* [Meta Front-End Developer](https://www.coursera.org/professional-certificates/meta-front-end-developer) (ongoing) @ Coursera
+* [**Meta Front-End Developer**](https://www.coursera.org/professional-certificates/meta-front-end-developer) (ongoing) @ Coursera
     
     * Introduction to Front-End Development
 
     * Programming with JavaScript
 
-* [Roling Scopes School JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) (ongoing)
+* [**JavaScript/Front-end. Stage 0**](https://rs.school/js-stage0/) (ongoing) @ Roling Scopes School 
 
 * **MA in Sociology (Visual Culture Studies)** @
 European Humanities University (Vilnius, Lithuania)
@@ -73,7 +73,7 @@ Belarusian National Technical University (Minsk, Belarus)
 
 * English - B2
 
-* Belarusian - C1
+* Belarussian - C1
 
 * Russian - C2
 
