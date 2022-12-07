@@ -47,3 +47,38 @@ For loop and medals (JavaScript)
     }
 
 - - -
+
+## Courses and Education
+
+* [Meta Front-End Developer](https://www.coursera.org/professional-certificates/meta-front-end-developer) (ongoing) @ Coursera
+    
+    * Introduction to Front-End Development
+
+    * Programming with JavaScript
+
+* [Roling Scopes School JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) (ongoing)
+
+* **MA in Sociology (Visual Culture Studies)** @
+European Humanities University (Vilnius, Lithuania)
+
+* **BA in Intercultural Communication** @
+European Humanities University (Vilnius, Lithuania)
+
+* **Automation and robotics engineer** @
+Belarusian National Technical University (Minsk, Belarus)
+
+- - -
+
+## Languages
+
+* English - B2
+
+* Belarusian - C1
+
+* Russian - C2
+
+* Polish - B2
+
+- - -
+
+*2022. No rights reserved*
