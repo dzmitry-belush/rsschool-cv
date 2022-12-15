@@ -1,3 +1,97 @@
-h1 {
-    color: black;
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #ffbda326;
+    color: #002037;
+    line-height: 1.25em;
+}
+
+.body-link {
+    text-decoration: underline;
+    color: #002037
+}
+
+/* Благодаря свойству box-sizing: border-box; границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента. Это упрощает работу с размерами, позволяет указывать их более логично */
+* {
+    box-sizing: border-box;
+}
+
+/* Контейнер - элемент с классом container, который ограничивает ширину контента и центрирует его на странице по горизонтали. */
+.container {
+    max-width: 66%;
+    margin: 0 auto;
+}
+
+/* Чтобы разместить все элементы навигации в строку, элементу .nav-list указываем свойство display: flex;, сдвинуть их вправо позволит свойство justify-content: flex-end; выровнять по центру по высоте свойство align-items: center; */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    background-color: #ffbda359;
+    padding-inline-start: 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    color: #724102;
+    text-decoration: none;
+}
+/* Чтобы прокрутка происходила плавно*/
+html {
+    scroll-behavior: smooth;
+}
+
+.page-title {
+	font-size: 3em;
+	color: #006081;
+}
+
+.section {
+    margin: 50px 0
+}
+
+.section-title {
+    color: #d18201;
+}
+
+.img-avatar {
+    float: right;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 0px 30px 30px 30px;
+    transition: all 250ms;
+}
+
+.img-avatar:hover {
+    transform: translate(10px, 10px);
+}
+
+.table {
+    width: 100%;
+}
+
+/* .table-row {
+    line-height: 30px;
+} */
+
+.table-data {
+    padding: 10px;
+    /* background-color: #d18201; */
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-item {
+    margin: 0 20px;
+    /* background-color: #006081; */
 }

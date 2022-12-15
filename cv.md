@@ -4,6 +4,10 @@
 
 Warsaw, Poland
 
+## Profession
+
+Junior Front-End Developer
+
 - - -
 
 ## Contact Information
@@ -19,8 +23,6 @@ LinkedIn: [Dzmitry Belush](https://www.linkedin.com/in/dzmitry-belush-950a88258/
 ## About
 
 I'm running independent concert agency focusing on alternative music. I would like to switch to a new career and become Front-End Developer.
-
-> Per aspera ad astra
 
 - - -
 
@@ -50,21 +52,22 @@ For loop and medals (JavaScript)
 
 ## Courses and Education
 
-* [**Meta Front-End Developer**](https://www.coursera.org/professional-certificates/meta-front-end-developer) (ongoing) @ Coursera
+* [**Meta Front-End Developer**](https://www.coursera.org/professional-certificates/meta-front-end-developer) (ongoing) at Coursera
     
     * Introduction to Front-End Development
 
     * Programming with JavaScript
 
-* [**JavaScript/Front-end. Stage 0**](https://rs.school/js-stage0/) (ongoing) @ Roling Scopes School 
+    * Git and Github
 
-* **MA in Sociology (Visual Culture Studies)** @
+* [**JavaScript/Front-end. Stage 0**](https://rs.school/js-stage0/) (ongoing) at Roling Scopes School 
+
+* **MA in Sociology (Visual Culture Studies)** at the European Humanities University (Vilnius, Lithuania)
+
+* **BA in Intercultural Communication** at the
 European Humanities University (Vilnius, Lithuania)
 
-* **BA in Intercultural Communication** @
-European Humanities University (Vilnius, Lithuania)
-
-* **Automation and robotics engineer** @
+* **Automation and robotics engineer** at the
 Belarusian National Technical University (Minsk, Belarus)
 
 - - -
@@ -81,4 +84,4 @@ Belarusian National Technical University (Minsk, Belarus)
 
 - - -
 
-*2022. No rights reserved*
+[Dzmitry Belush](https://github.com/dzmitry-belush), 2022. [The Rolling Scopes](https://rs.school/js/)
