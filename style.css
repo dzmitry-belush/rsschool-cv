@@ -1,10 +1,18 @@
+/* :root {
+    --main-color: #000000;
+  }
+
+  .news-block {
+    background-color: var(--main-color);
+  } */
+
 body {
     font-family: 'Work Sans', sans-serif;
     margin-top: 3%;
     margin-bottom: 3%;
     background-color: #ffbda326;
     color: #002037;
-    line-height: 1.25em;
+    line-height: 1.5em;
 }
 
 .body-link {
@@ -12,7 +20,8 @@ body {
     color: #002037
 }
 
-/* Благодаря свойству box-sizing: border-box; границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента. Это упрощает работу с размерами, позволяет указывать их более логично */
+/* Благодаря свойству box-sizing: border-box; границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента. Это упрощает работу с размерами, позволяет указывать их более логично.
+Значения границы и внутренних отступов не увеличивают элемент, а «съедают» место у контента, то есть свойства не будут влиять и высоту и ширину. Если установлено фиксированное значение, то оно таким и останется, но для контента внутри останется меньше места */
 * {
     box-sizing: border-box;
 }
@@ -51,7 +60,7 @@ html {
 }
 
 .section {
-    margin: 50px 0
+    margin-top: 60px;
 }
 
 .section-title {
@@ -82,6 +91,22 @@ html {
 .table-data {
     padding: 10px;
     /* background-color: #d18201; */
+}
+
+.code {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content; /* check fit-content */
+    color: #006081;
+    font-size: large;
+    background-color:#0061811a;
+    padding-right: 50px;
+    border-radius: 0px 30px 30px 30px;
+    transition: all 250ms;
+}
+
+.code:hover {
+    transform: translate(10px, 10px);
 }
 
 .footer-list {
