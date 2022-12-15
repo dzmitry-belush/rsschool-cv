@@ -3,6 +3,13 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
     background-color: #ffbda326;
+    color: #002037;
+    line-height: 1.25em;
+}
+
+.body-link {
+    text-decoration: underline;
+    color: #002037
 }
 
 /* Благодаря свойству box-sizing: border-box; границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента. Это упрощает работу с размерами, позволяет указывать их более логично */
@@ -36,4 +43,55 @@ body {
 /* Чтобы прокрутка происходила плавно*/
 html {
     scroll-behavior: smooth;
+}
+
+.page-title {
+	font-size: 3em;
+	color: #006081;
+}
+
+.section {
+    margin: 50px 0
+}
+
+.section-title {
+    color: #d18201;
+}
+
+.img-avatar {
+    float: right;
+    width: 40%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 0px 30px 30px 30px;
+    transition: all 250ms;
+}
+
+.img-avatar:hover {
+    transform: translate(10px, 10px);
+}
+
+.table {
+    width: 100%;
+}
+
+/* .table-row {
+    line-height: 30px;
+} */
+
+.table-data {
+    padding: 10px;
+    /* background-color: #d18201; */
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-item {
+    margin: 0 20px;
+    /* background-color: #006081; */
 }
