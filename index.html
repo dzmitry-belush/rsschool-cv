@@ -6,7 +6,7 @@
     <meta name="author" content="Dzmitry-Belush">
     <link rel="icon" href="assets/img/nerd.png" type="image/png" sizes="32x32">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Dzmitry Belush CV</title>
 </head>
 <body>
@@ -44,12 +44,14 @@
             </section>
             <section class="section" id="about">
                 <h2 class="section-title">About</h2>
-                <p>My name is Dzmitry Belush. I'm running independent concert agency based in Warsaw focusing on alternative music and arts. I am switching to a new profession and becoming a Front-End Developer.</p>
-                <p>At the moment I'm enrolled in few professional certificare courses and I'm also looking for <strong>Internship</strong> as a Junior Front-End Developer.</p>
+                <div class="about-text">
+                    <p>My name is Dzmitry Belush. I'm running independent concert agency based in Warsaw focusing on alternative music and arts. I am switching to a new profession and becoming a Front-End Developer.</p>
+                    <p>At the moment I'm enrolled in few professional certificare courses and I'm also looking for <strong>Internship</strong> as a Junior Front-End Developer.</p>
+                </div>
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
-                <ul>
+                <ul class="section-list">
                     <li>HTML and CSS basics</li>
                     <li>JavaScript basics</li>
                     <li>Git and Guthub basics </li>
@@ -80,12 +82,26 @@
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses and Education</h2>
-                <ul>
-                    <li><b><a class="body-link" href="https://www.coursera.org/professional-certificates/meta-front-end-developer">Meta Front-End Developer</a></b> (ongoing) at Coursera</li>
-                    <li><b><a class="body-link" href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a></b> (ongoing) at Roling Scopes School</li>
-                </ul>
                 <table class="table">
                     <tbody>
+                        <tr class="table-row">
+                            <td class="table-data">2022</td>
+                            <td class="table-data"><b><a class="body-link" href="https://www.coursera.org/professional-certificates/meta-front-end-developer">Meta Front-End Developer</a></b></td>
+                            <td class="table-data">Coursera</td>
+                            <td class="table-data"><i>Ongoing</i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="table-data">2022</td>
+                            <td class="table-data"><b><a class="body-link" href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a></b></td>
+                            <td class="table-data">Roling Scopes School</td>
+                            <td class="table-data"><i>Ongoing</i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                            <td class="table-data"></td>
+                        </tr>
                         <tr class="table-row">
                             <td class="table-data">2012</td>
                             <td class="table-data"><b>MA in Sociology (Visual Culture Studies)</b></td>
@@ -109,7 +125,7 @@
             </section>
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
-                <ul>
+                <ul class="section-list">
                     <li>English &mdash; B2</li>
                     <li>Belarusian &mdash; C1</li>
                     <li>Russian &mdash; C2</li>
