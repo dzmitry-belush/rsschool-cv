@@ -1,10 +1,14 @@
+:root {
+    --code-bg-color: #E8E6E5; /* var(--code-bg-color) */
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     margin-top: 3%;
     margin-bottom: 3%;
     background-color: #ffbda326;
     color: #002037;
-    line-height: 1.25em;
+    line-height: 1.5em;
 }
 
 .body-link {
@@ -12,7 +16,8 @@ body {
     color: #002037
 }
 
-/* Благодаря свойству box-sizing: border-box; границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента. Это упрощает работу с размерами, позволяет указывать их более логично */
+/* Благодаря свойству box-sizing: border-box; границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента. Это упрощает работу с размерами, позволяет указывать их более логично.
+Значения границы и внутренних отступов не увеличивают элемент, а «съедают» место у контента, то есть свойства не будут влиять и высоту и ширину. Если установлено фиксированное значение, то оно таким и останется, но для контента внутри останется меньше места */
 * {
     box-sizing: border-box;
 }
@@ -30,7 +35,7 @@ body {
     justify-content: center;
     align-content: center;
     list-style: none;
-    background-color: #ffbda359;
+    background-color: #ffe1d6;
     padding-inline-start: 0px;
     border-radius: 20px 0px 20px 0px;
 }
@@ -39,6 +44,10 @@ body {
     line-height: 50px;
     color: #724102;
     text-decoration: none;
+    transition: all 500ms;
+}
+.nav-link:hover {
+    color: #006081;
 }
 /* Чтобы прокрутка происходила плавно*/
 html {
@@ -51,11 +60,16 @@ html {
 }
 
 .section {
-    margin: 50px 0
+    margin-top: 50px;
 }
 
 .section-title {
     color: #d18201;
+}
+
+.section-list {
+    list-style-type: '▢   ';
+    line-height: 2em;
 }
 
 .img-avatar {
@@ -71,6 +85,16 @@ html {
     transform: translate(10px, 10px);
 }
 
+.about-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content; /* check FIT-CONTENT */
+    color: #006081;
+    background-color:#fae8d7;
+    padding: 30px;
+    border-radius: 0px 30px 30px 30px;
+}
+
 .table {
     width: 100%;
 }
@@ -82,6 +106,23 @@ html {
 .table-data {
     padding: 10px;
     /* background-color: #d18201; */
+}
+
+.code {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content; /* check FIT-CONTENT */
+    color: #006081;
+    font-size: large;
+    background-color: var(--code-bg-color);
+    padding-right: 50px;
+    border-radius: 0px 30px 30px 30px;
+    transition: all 250ms;
+    /* position: relative; bottom: 50px; left: 60px;  RELATIVE POSITION */
+}
+
+.code:hover {
+    transform: translate(10px, 10px);
 }
 
 .footer-list {
