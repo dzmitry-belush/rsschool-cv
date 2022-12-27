@@ -128,8 +128,8 @@ html {
 .footer-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-item {
